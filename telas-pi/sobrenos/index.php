@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" heref="../parciais/styles.css">
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="logo">Con<span class="string">exus</a>
+        <p>Conheça um pouco mais sobre nossa história e missão.</p>
+    </header>
+
+    <section class="sobre">
+        <div class="imagem">
+            <img src="sobrenos.png" alt="Equipe ou empresa">
+        </div>
+        <div class="conteudo">
+            <h2>Quem somos</h2>
+            <p>Somos uma equipe apaixonada por tecnologia, inovação e excelência. Atuamos no mercado há mais de 10 anos oferecendo soluções inteligentes para empresas de diversos setores.</p>
+
+            <h2>Missão</h2>
+            <p>Nosso objetivo é transformar ideias em resultados concretos, sempre com ética, comprometimento e foco no cliente.</p>
+
+            <h2>Visão</h2>
+            <p>Ser referência em qualidade e inovação, contribuindo para o crescimento sustentável dos nossos clientes e parceiros.</p>
+        </div>
+    </section>
+
+    <?php include '../parciais/footer.php'?>
+</body>
+</html>
